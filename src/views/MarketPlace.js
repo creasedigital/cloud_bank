@@ -1,3 +1,11 @@
+import DashboardLayout from "../layout/DashboardLayout";
+
 export const MarketPlace = () => {
-	return <div>MarketPlace</div>;
+	return (
+		<>
+			<DashboardLayout>
+				<div className="empty">Marketplace view</div>
+			</DashboardLayout>
+		</>
+	);
 };

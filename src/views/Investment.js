@@ -1,3 +1,11 @@
+import DashboardLayout from "../layout/DashboardLayout";
+
 export const Investment = () => {
-	return <div>Investment</div>;
+	return (
+		<>
+			<DashboardLayout>
+				<div className="empty">Investment view</div>
+			</DashboardLayout>
+		</>
+	);
 };

@@ -7,7 +7,7 @@ const DashboardLayout = ({ children }) => {
 			<div className="bg-white h-screen w-48">
 				<SideNav />
 			</div>
-			<div>
+			<div className="px-16 py-10 flex-1">
 				<Header />
 				{children}
 			</div>

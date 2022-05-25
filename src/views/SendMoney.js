@@ -1,3 +1,11 @@
+import DashboardLayout from "../layout/DashboardLayout";
+
 export const SendMoney = () => {
-	return <div>SendMoney</div>;
+	return (
+		<>
+			<DashboardLayout>
+				<div className="empty">Send money view</div>
+			</DashboardLayout>
+		</>
+	);
 };

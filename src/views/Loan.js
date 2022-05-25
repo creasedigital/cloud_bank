@@ -1,3 +1,14 @@
+import { CardContainer } from "../components/CardContainer";
+import DashboardLayout from "../layout/DashboardLayout";
+
 export const Loan = () => {
-	return <div>Loan</div>;
+	return (
+		<>
+			<DashboardLayout>
+				<div className="">
+					<CardContainer />
+				</div>
+			</DashboardLayout>
+		</>
+	);
 };

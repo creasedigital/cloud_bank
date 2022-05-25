@@ -4,7 +4,7 @@ export const Home = () => {
 	return (
 		<>
 			<DashboardLayout>
-				<div className="card">welcome to the home view</div>
+				<div className="empty">welcome to the Home view</div>
 			</DashboardLayout>
 		</>
 	);
