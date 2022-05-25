@@ -1,3 +1,11 @@
+import DashboardLayout from "../layout/DashboardLayout";
+
 export const Home = () => {
-	return <div>Home</div>;
+	return (
+		<>
+			<DashboardLayout>
+				<div className="card">welcome to the home view</div>
+			</DashboardLayout>
+		</>
+	);
 };
