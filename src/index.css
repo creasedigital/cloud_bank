@@ -32,10 +32,15 @@ code {
   display: inline-block;
 }
 
+.baseIt{
+  justify-content: flex-end;
+}
+
 .card{
-  @apply p-8 shadow-sm flex flex-col bg-white justify-center items-center w-64 h-96 m-8 rounded-lg
+  @apply  shadow-sm flex flex-col bg-white justify-center items-center w-64 h-96  rounded-lg
 }
 
 .empty{
   @apply p-8 shadow-sm flex flex-col bg-white justify-center items-center w-3/4 h-40 m-8 rounded-2xl text-center
 }
+
