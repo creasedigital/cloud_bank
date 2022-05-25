@@ -16,16 +16,14 @@ const RouteHandler = () => {
 		<>
 			<AnimatePresence exitBeforeEnter>
 				<Routes>
-					<Route path="/" element={<DashboardLayout />}>
-						<Route index element={<Home />} />
-						<Route path="send-money" element={<SendMoney />} />
-						<Route path="investment" element={<Investment />} />
-						<Route path="loan" element={<Loan />} />
-						<Route path="cards" element={<Cards />} />
-						<Route path="transactions" element={<Transactions />} />
-						<Route path="marketplace" element={<MarketPlace />} />
-						<Route path="settings" element={<Settings />} />
-					</Route>
+					<Route path="/" element={<Home />} />
+					<Route path="send-money" element={<SendMoney />} />
+					<Route path="investment" element={<Investment />} />
+					<Route path="loan" element={<Loan />} />
+					<Route path="cards" element={<Cards />} />
+					<Route path="transactions" element={<Transactions />} />
+					<Route path="marketplace" element={<MarketPlace />} />
+					<Route path="settings" element={<Settings />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</AnimatePresence>
