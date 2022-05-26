@@ -1,11 +1,11 @@
 import HAMBURGER from "../assets/ham_menu.svg";
 import CLOUD_LOGO from "../assets/cloud_logo.svg";
-import { FaTimesCircle } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 
 const Header = ({ pageName, handleClick, toggle }) => {
 	return (
 		<div className="mb-4 w-full relative">
-			<div className="md:none">
+			<div className="md:hidden">
 				{toggle ? (
 					<img
 						className="absolute top-0 left-0 cursor-pointer"
@@ -18,7 +18,7 @@ const Header = ({ pageName, handleClick, toggle }) => {
 						onClick={() => handleClick()}
 						className=" align-center absolute z-10 top-0 left-0 cursor-pointer shadow-sm text-navGreen p-2 "
 					>
-						<FaTimesCircle style={{ fontSize: "40px" }} />
+						<FaTimes style={{ fontSize: "32px" }} />
 					</div>
 				)}
 				<img className="block mx-auto " src={CLOUD_LOGO} alt="brand logo" />
