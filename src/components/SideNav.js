@@ -4,7 +4,7 @@ import SideNavItem from "./SideNavItem";
 
 const SideNav = () => {
 	return (
-		<div className="flex flex-col justify-between h-full py-8 items-center">
+		<div className="flex flex-col justify-between h-full pt-16 md:pt-8 pb-8 items-center">
 			<div>
 				<div className="mb-8">
 					<img src={NAV_LOGO} />
