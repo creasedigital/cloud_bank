@@ -26,6 +26,10 @@ code {
 		monospace;
 }
 
+.robotos {
+	font-family: "Roboto", sans-serif;
+}
+
 .active {
 	background-color: #d7ecec;
 	border-radius: 10px;
