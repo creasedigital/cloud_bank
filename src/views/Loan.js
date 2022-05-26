@@ -4,7 +4,7 @@ import DashboardLayout from "../layout/DashboardLayout";
 export const Loan = () => {
 	return (
 		<>
-			<DashboardLayout>
+			<DashboardLayout pageName="Loan">
 				<div className="">
 					<CardContainer />
 				</div>

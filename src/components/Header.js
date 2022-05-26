@@ -2,7 +2,7 @@ import HAMBURGER from "../assets/ham_menu.svg";
 import CLOUD_LOGO from "../assets/cloud_logo.svg";
 import { FaTimesCircle } from "react-icons/fa";
 
-const Header = ({ handleClick, toggle }) => {
+const Header = ({ pageName, handleClick, toggle }) => {
 	return (
 		<div className="mb-4 w-full relative">
 			<div className="md:none">
@@ -24,7 +24,7 @@ const Header = ({ handleClick, toggle }) => {
 				<img className="block mx-auto " src={CLOUD_LOGO} alt="brand logo" />
 			</div>
 			<div>
-				<h2 className="text-grayOne text-base md:text-2xl">Loan</h2>
+				<h2 className="text-grayOne text-base md:text-2xl">{pageName}</h2>
 				<div>
 					<span className="text-deepNavGreen">Monday, </span>
 					<span>21st February, 2021</span>

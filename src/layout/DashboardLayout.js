@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import SideNav from "../components/SideNav";
 import { useState } from "react";
 
-const DashboardLayout = ({ children }) => {
+const DashboardLayout = ({ children, pageName }) => {
 	const [toggle, setToggle] = useState(false);
 
 	const handleClick = () => {
@@ -19,7 +19,7 @@ const DashboardLayout = ({ children }) => {
 				<SideNav />
 			</div>
 			<div className={`px-8 py-10 ml-48 ${toggle && "ml-0"}`}>
-				<Header toggle={toggle} handleClick={handleClick} />
+				<Header pageName={pageName} toggle={toggle} handleClick={handleClick} />
 				{children}
 			</div>
 		</div>

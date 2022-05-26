@@ -4,7 +4,7 @@ import DashboardLayout from "../layout/DashboardLayout";
 const NotFound = () => {
 	return (
 		<>
-			<DashboardLayout>
+			<DashboardLayout pageName="Not Found">
 				<div className="empty">
 					The requested page does not exist.{" "}
 					<span>
