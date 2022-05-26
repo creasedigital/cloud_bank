@@ -9,7 +9,6 @@ import { Transactions } from "../views/Transactions";
 import { MarketPlace } from "../views/MarketPlace";
 import { Settings } from "../views/Settings";
 import NotFound from "../views/NotFound";
-import DashboardLayout from "../layout/DashboardLayout";
 
 const RouteHandler = () => {
 	return (
