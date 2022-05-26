@@ -4,7 +4,7 @@ import { FaTimes } from "react-icons/fa";
 
 const Header = ({ pageName, handleClick, toggle }) => {
 	return (
-		<div className="mb-4 w-full relative">
+		<div className="mb-8 w-full relative">
 			<div className="md:hidden">
 				{toggle ? (
 					<img
