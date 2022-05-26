@@ -12,7 +12,7 @@ const DashboardLayout = ({ children }) => {
 	return (
 		<div className="w-full min-h-screen">
 			<div
-				className={`bg-white h-full fixed z-10 top-0 left-0 overflow-x-hidden w-48 md:${
+				className={`bg-white h-full fixed z-10 top-0 left-0 overflow-x-hidden w-48 ${
 					toggle && "moveLeft"
 				}`}
 			>
