@@ -9,7 +9,7 @@ const SideNav = () => {
 				<div className="mb-8">
 					<img alt="icon" src={NAV_LOGO} />
 				</div>
-				<div>
+				<div className="w-full">
 					<SideNavItem />
 				</div>
 			</div>
