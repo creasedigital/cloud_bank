@@ -13,7 +13,10 @@ const DashboardLayout = ({ children, pageName }) => {
 	return (
 		<div className="w-full min-h-screen">
 			{toggle && (
-				<div className="w-screen h-screen fixed md:hidden z-10 bg-grayOne opacity-50" />
+				<div
+					onClick={() => handleClick(false)}
+					className="w-screen h-screen fixed md:hidden z-10 bg-grayOne opacity-50"
+				/>
 			)}
 			<div
 				className={`bg-white -translate-x-full md:translate-x-0 h-full fixed z-20 top-0 left-0 overflow-x-hidden w-48 ${
