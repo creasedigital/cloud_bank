@@ -9,7 +9,7 @@ const Header = ({ pageName, handleClick, toggle }) => {
 				{toggle ? (
 					<div
 						onClick={() => handleClick(false)}
-						className=" align-center absolute z-30 top-0 left-24 cursor-pointer shadow-sm text-navGreen p-2 "
+						className=" align-center absolute z-30 top-0 left-24 cursor-pointer bg-white rounded-full h-10 w-10 shadow-sm text-navGreen p-2 "
 					>
 						<FaTimes style={{ fontSize: "32px" }} />
 					</div>
