@@ -47,8 +47,3 @@ code {
 .empty {
 	@apply p-8 shadow-sm flex flex-col bg-white justify-center items-center w-3/4 h-40 m-8 rounded-2xl text-center;
 }
-
-.moveLeft {
-	transform: translateX(-100vw);
-	/* opacity: 0; */
-}
