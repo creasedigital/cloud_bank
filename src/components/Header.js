@@ -7,12 +7,12 @@ const Header = ({ pageName, handleClick, toggle }) => {
 		<div className="mb-8 w-full relative">
 			<div className="md:hidden">
 				{toggle ? (
-					<div
+					<button
 						onClick={() => handleClick(false)}
-						className=" align-center absolute z-30 top-0 left-24 cursor-pointer flex justify-center items-center bg-white rounded-full h-10 w-10 shadow-sm text-navGreen p-2 "
+						className=" align-center absolute z-30 top-0 left-24 flex justify-center items-center bg-white rounded-full h-10 w-10 shadow-sm text-navGreen p-2 "
 					>
 						<FaTimes style={{ fontSize: "32px" }} />
-					</div>
+					</button>
 				) : (
 					<img
 						className="absolute top-0 left-0 cursor-pointer"
